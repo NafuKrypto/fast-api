@@ -86,6 +86,20 @@ FastAPI is actually a sub-class of Starlette. So, if you already know or use Sta
 ## Relationship
 - Define User to Blog Relationship
 - Define Blog to user Relationship
+## Refactoring for Bigger Application
+- API Router
+- API Router with parameters
+# Authentication using JWT 
+JWT - Json Web Token
+- Create Login route 
+- Login and verify password 
+- Return JWT access token
+- Routes behind authentication
+# Deploy FastAPI
+- using Deta.sh website to deploy 
+# Final Product 
+![image](https://user-images.githubusercontent.com/37190335/187860097-44a3c856-45d2-461c-bb5f-bfb12f90acff.png)
+
 
 
 
