@@ -99,6 +99,23 @@ JWT - Json Web Token
 - using Deta.sh website to deploy 
 # Final Product 
 ![image](https://user-images.githubusercontent.com/37190335/187860097-44a3c856-45d2-461c-bb5f-bfb12f90acff.png)
+We can also see the same thing with redocs
+
+# fast api Github
+https://github.com/tiangolo/fastapi
+
+# Language 
+Python 3.6+ version 
+# Install and Set Up 
+1. Install Python 3.6 or greater version
+2. Install fast api
+```
+pip install fastapi
+```
+4. 
+5.
+6. 
+
 
 
 
