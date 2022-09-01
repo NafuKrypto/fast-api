@@ -16,17 +16,17 @@ Best thing for the fast API
   - We can also try them out check what is we are creating , how it is going to respond
   
 **2. ReDoc** 
-- having a very nice and minimal design for the documentation
+  - having a very nice and minimal design for the documentation
 
 ## Just Modern Python
 1. Python 3.6 with type using Pydantic library
-- No new syntax to learn. Just standard modern Python.
+  - No new syntax to learn. Just standard modern Python.
 
 ## Based on Open Standards
 1. JSON schema
-- by default returns json which every modern api need to communicate with other things
+  - by default returns json which every modern api need to communicate with other things
 2. Open API
-- is a linux foundation under linux foundation and it defined how we create our api 
+  - is a linux foundation under linux foundation and it defined how we create our api 
 ## Editor support 
 - vs code : autocomplete feature
 - pycharm : autocomplete 
@@ -83,6 +83,10 @@ FastAPI is actually a sub-class of Starlette. So, if you already know or use Sta
 - Hash User Password
 - Show single user
 - Define docs tags 
+## Relationship
+- Define User to Blog Relationship
+- Define Blog to user Relationship
+
 
 
 
