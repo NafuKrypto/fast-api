@@ -109,12 +109,39 @@ Python 3.6+ version
 # Install and Set Up 
 1. Install Python 3.6 or greater version
 2. Install fast api
+Overall install or for venv 
 ```
 pip install fastapi
 ```
-4. 
-5.
-6. 
+or 
+```
+pip3 install fastapi
+```
+4. Install Uvicorn
+```
+pip install uvicorn
+```
+or 
+```
+pip3 install uvicorn
+```
+check version
+```
+uvicorn --version
+```
+3. Code
+```main.py```
+```
+from typing import Union
+
+from fastapi import FastAPI
+
+app = FastAPI()
+@app.get("/")
+def index():
+    return 'heyy'
+```
+5. 
 
 
 
