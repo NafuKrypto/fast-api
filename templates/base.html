@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Form</title>
+</head>
+
+<body>
+    <form action="/login/{{username}}/{{password}}" method="post">
+        <!-- {% csrf_token %} -->
+        <b>Username : </b>
+        <input type="Text" name="num" id="username" /> <br>
+        <br>
+        <b>Password : </b>
+        <input type="Text" name="num" id="password" /><br>
+        <br>
+
+        <input type="submit">
+    </form>
+
+
+    <!-- <p>Result: {{ result }}</p> -->
+
+</body>
+
+</html>

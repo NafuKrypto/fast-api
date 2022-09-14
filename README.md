@@ -302,7 +302,28 @@ Then execute :
 ```
 (venv) uvicorn main:app --reload
 ```
+# INCLUDE_ROUTER()
 
+todo.py is same as before 
+
+```main.py```
+```
+from typing import Union
+
+from fastapi import FastAPI
+from todo import todo_router
+# Creating new instance of FASTAPI
+ 
+app = FastAPI()
+ 
+
+@app.get("/")
+async def say_hello() -> dict:
+    return {"message": "Hello!"}
+app.include_router(todo_router)
+```
+
+ 
 
 
 
