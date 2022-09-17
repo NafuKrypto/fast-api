@@ -1,5 +1,14 @@
 # fast-api
-
+# Project 
+## Todo 
+- [ ] run code from book to see why the hell mine isnt working [specially ginja]
+- [ ] watch tutorials of fast api 
+- [ ] Make API For Admin [get login page , post admin-info , get admin-info ] (admin panel)
+- [ ] Frontend Admin with Ginja (admin panel)
+- [ ] database connection with fast api (admin panel)
+- [ ] authentication with fast api (admin panel)
+- [ ] see how frontend data pass to backend 
+- [ ] backend to databse 
 # Framework Intro 
 - A super fast Python Web Framework 
 - Other framework : **Django / Flask / other**

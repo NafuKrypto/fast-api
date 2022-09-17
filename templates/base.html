@@ -7,18 +7,61 @@
 </head>
 
 <body>
-    <form action="/login/{{username}}/{{password}}" method="post">
-        <!-- {% csrf_token %} -->
+    <main class="container">
+        <hr>
+
+        <section class="container-fluid">
+            <form method="post">
+                <div class="col-auto">
+                    <div class="input-group mb-3">
+                        <input aria-describedby="button-addon2" aria-label="Add a todo" class="form-control" name="item" placeholder="Purchase Packt's Python workshop course" type="text" value="{{ item }}" />
+                        <button class="btn btn-outline-primary" data-mdb-ripple-color="dark" id="button-addon2" type="submit">
+                            Add Todo
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+
+        {% if todo %}
+        <article class="card container-fluid">
+            <br/>
+            <h4>Todo ID: {{ todo.id }} </h4>
+            <p>
+                <strong>
+                    Item: {{ todo.item }}
+                </strong>
+            </p>
+        </article>
+        {% else %}
+        <section class="container-fluid">
+            <h2>Todos</h2>
+            <br>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    {% for todo in todos %}
+                    <li class="list-group-item">
+                        {{ loop.index }}. <a href="/todo/{{ loop.index }}"> {{ todo.item }} </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </section>
+    </main>
+
+    <!-- <form action=" " method="post">
+
         <b>Username : </b>
-        <input type="Text" name="num" id="username" /> <br>
+        <input type="Text" name="num" id="username" value="{{username}}" /> <br>
         <br>
         <b>Password : </b>
-        <input type="Text" name="num" id="password" /><br>
+        <input type="Text" name="num" id="password" value="{{password}}" /><br>
         <br>
 
         <input type="submit">
-    </form>
-
+    </form> -->
 
     <!-- <p>Result: {{ result }}</p> -->
 
