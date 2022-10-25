@@ -156,6 +156,7 @@ def index():
 ```
 
 **Note : ** Instead of ```app = FastAPI()``` we can also write ```app = APIRouter()```
+
 4. Execute on terminal to run Server
 
 ```
