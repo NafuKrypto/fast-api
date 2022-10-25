@@ -209,6 +209,7 @@ Now we will explain the steps in here.
 - Routing in fast API is flexible and hassle free
 - It is the process of **handling HTTP requests** **sent from a client to the server**
 - HTTP requests are sent to defined routes, which have defined handlers for processing the requests and responding. These handlers are called **route handlers**.
+ 
 
   **Note: An HTTP request is made by a client, to a named host, which is located on a server. The aim of the request is to access a resource on the server. To make the request, the client uses components of a URL (Uniform Resource Locator), which includes the information needed to access the resource.**
 
